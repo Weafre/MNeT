@@ -1,0 +1,6 @@
+setup.py
+/home/datnguyen/Projects/MS_PCC/torchdac/torchdac_backend/torchdac.cpp
+torchdac_backend_cpu.egg-info/PKG-INFO
+torchdac_backend_cpu.egg-info/SOURCES.txt
+torchdac_backend_cpu.egg-info/dependency_links.txt
+torchdac_backend_cpu.egg-info/top_level.txt

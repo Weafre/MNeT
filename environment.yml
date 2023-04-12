@@ -1,0 +1,26 @@
+name: mink
+channels:
+  - pytorch
+  - anaconda
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.1.74=h6bb024c_0
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - pip=21.2.4=py39h06a4308_0
+  - pyntcloud=0.1.5=pyhd8ed1ab_0
+  - python=3.9.6=h12debd9_1
+  - pytorch=1.9.0=py3.9_cuda11.1_cudnn8.0.5_0
+  - pytorch-lightning=1.6.0=pyhd8ed1ab_0
+  - scikit-learn=1.0.2=py39h51133e4_0
+  - torchvision=0.10.0=py39_cu111
+  - pip:
+    - git+https://github.com/NVIDIA/MinkowskiEngine@master
+    - opencv-python==4.5.5.64
+    - sparsemax==0.1.9
+    - protobuf==3.20.1
+    - protobuf-py3==2.5.1
+    - torchac==0.9.3
+    - torchsummary==1.5.1
+

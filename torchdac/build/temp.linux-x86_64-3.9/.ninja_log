@@ -1,0 +1,5 @@
+# ninja log v5
+0	4738	1656584279248256593	/home/datnguyen/Projects/MS_PCC/torchdac/build/temp.linux-x86_64-3.9/home/datnguyen/Projects/MS_PCC/torchdac/torchdac_backend/torchdac_kernel.o	820b662d209d340b
+0	7301	1656584389455050550	/home/datnguyen/Projects/MS_PCC/torchdac/build/temp.linux-x86_64-3.9/home/datnguyen/Projects/MS_PCC/torchdac/torchdac_backend/torchdac.o	2d3e2e6aef922ad7
+4	5496	1656607911897300666	/home/datnguyen/Projects/MS_PCC/torchdac/build/temp.linux-x86_64-3.9/home/datnguyen/Projects/MS_PCC/torchdac/torchdac_backend/torchdac_kernel.o	820b662d209d340b
+3	8339	1656607914742296060	/home/datnguyen/Projects/MS_PCC/torchdac/build/temp.linux-x86_64-3.9/home/datnguyen/Projects/MS_PCC/torchdac/torchdac_backend/torchdac.o	2d3e2e6aef922ad7
