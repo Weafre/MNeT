@@ -47,7 +47,7 @@ The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing
 
     python3 -m Encoder.MNeT_Encoder -level 10 -ply  ../Datasets/TestPCs/10bits/ricardo_0010.ply -output Output/ -model Model/best_val_checkpoint_model__lr_50_b_32_da_0_nores_8_schedule_50.75_nobins_26_noltfil_5-epoch=125-val_loss=10.42.ckpt -signaling 2510_pooling -nobins 26 -nofil 5 -noscale 3
 
-Checkpoints can be download from [here](https://faubox.rrze.uni-erlangen.de/getlink/fiJLJVHMvF5dRsGoNgWkJt/)
+Checkpoints can be downloaded from [here](https://faubox.rrze.uni-erlangen.de/getlink/fiJLJVHMvF5dRsGoNgWkJt/)
 
 
 
