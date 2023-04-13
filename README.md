@@ -1,7 +1,7 @@
 # DEEP PROBABILISTIC MODEL FOR LOSSLESS SCALABLE POINT CLOUD ATTRIBUTE COMPRESSION
 * **Authors**:
 [Dat T. Nguyen](https://scholar.google.com/citations?hl=en&user=uqqqlGgAAAAJ),
-[Kamal Gopikrishnan Nambiar](https://www.lms.tf.fau.de/person/nambiar-kamal-gopikrishnan/)
+[Kamal Gopikrishnan Nambiar](https://www.lms.tf.fau.de/person/nambiar-kamal-gopikrishnan/),
 [André Kaup](https://scholar.google.de/citations?user=0En1UwQAAAAJ&hl=de),
 
 * **Affiliation**: Friedrich-Alexander University Erlangen-Nuremberg, 91058 Erlangen, Germany
