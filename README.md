@@ -27,7 +27,17 @@
 ```shell
 conda env create --name mink --file environment.yml
 ```
-
+## Dataset
+- We use four datasets with color attributes: MPEG Owlii, MPEG 8i, MVUB, and MPEG CAT1 (except point clouds used for testing). All points clouds are partitioned into a set of point with maximum bounding box of 64. 
+- Example: the following command to perform the partitioning for Owlii dataset: 
+```
+    python3 -m DataPreprocessing.ds_pc_octree_blocks datasets/Owlii datasets/Owlii_bl64 --vg_size 1024 --level 4 
+```
+The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing the same for other datasets
+- Randomly split blocks to training and validating set: 
+``` 
+    python3 -m DataPreprocessing.ds_select_randomly_move datasets/ datasets/ 0.3
+``` 
 ## Training
 
     python3 -m Training.train_MNeT -trainset ExampleTrainingSet/TrainSet/  -validset ExampleTrainingSet/ValidSet  -flag train_2510 -outputmodel Model/  -nores 8  -useDA 0    --quantize   -lr 50 -noscale 3  -noltfil 5 -nobins 16  -ngpus 1  -batch 2   -bacc 1
