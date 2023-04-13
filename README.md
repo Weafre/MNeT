@@ -38,10 +38,11 @@ The partitioned blocks are written into the datasets/Owlii_bl64 directory, doing
 ``` 
     python3 -m DataPreprocessing.ds_select_randomly_move datasets/ datasets/ 0.3
 ``` 
+- An example training set is located in ExampleTrainingSet/
 ## Training
 
     python3 -m Training.train_MNeT -trainset ExampleTrainingSet/TrainSet/  -validset ExampleTrainingSet/ValidSet  -flag train_2510 -outputmodel Model/  -nores 8  -useDA 0    --quantize   -lr 50 -noscale 3  -noltfil 5 -nobins 16  -ngpus 1  -batch 2   -bacc 1
-The training set and validation set is described in the paper, the preprocessing steps are similar to as in [VoxelDNN](https://github.com/Weafre/VoxelDNN_v2). An example training set is located in ExampleTrainingSet/
+
 ## Encoding
 
     python3 -m Encoder.MNeT_Encoder -level 10 -ply  ../Datasets/TestPCs/10bits/ricardo_0010.ply -output Output/ -model Model/best_val_checkpoint_model__lr_50_b_32_da_0_nores_8_schedule_50.75_nobins_26_noltfil_5-epoch=125-val_loss=10.42.ckpt -signaling 2510_pooling -nobins 26 -nofil 5 -noscale 3
